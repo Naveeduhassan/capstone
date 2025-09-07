@@ -107,3 +107,102 @@ main{
   text-align: center;
   overflow: hidden;
 }
+
+/* Hero section */
+
+.hero{
+  padding: 6rem 2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.hero-text{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25.8rem;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+.hero-title{
+  font-size: 2.5rem;
+  color: #333;
+  padding-left: 10rem;
+  margin-bottom: 2rem;
+}
+.hero-button{
+  padding: 0.75rem 1.5rem;
+  background-color: #f4ce14;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+.hero-button:hover{
+  background-color: #c2a40e;
+}
+
+.hero-cards{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.hero-card{
+  background-color: #edefee;
+  border-radius: 10px 10px 0 0;
+  width: 300px;
+  text-align: left;
+}
+.hero-card-image{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: 240px;
+  object-fit: cover;
+}
+.hero-card-content{
+  padding: 1rem 1.5rem 2rem 1.5rem;
+}
+.hero-card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-card-title{
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+.hero-card-price{
+  font-size: 1.2rem;
+  color: #ee9972;
+  font-weight: 600;
+}
+
+.hero-card-description{
+  font-size: 1rem;
+  color: #333;
+  margin: 1.5rem 0;
+  line-height: 1.4;
+}
+
+.hero-card-order{
+  text-decoration: none;
+  color: #495e57;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.hero-card-order:hover{
+  text-decoration: underline;
+}
+.hero-card-delivery-icon{
+  width: 19px;
+  height: 19px;
+}
+
+
