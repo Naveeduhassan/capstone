@@ -1,5 +1,5 @@
 import React from 'react'
-import resturantFood from '../assets/restauranfood.jpg';
+import resturantFood from '../images/restauranfood.jpg';
 export default function Main() {
   return (
     <main>

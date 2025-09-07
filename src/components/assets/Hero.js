@@ -1,7 +1,7 @@
-import greekSalad from '../assets/greek salad.jpg'
-import bruchetta from '../assets/bruchetta.svg'
-import lemonDessert from '../assets/lemon dessert.jpg'
-import delivery from '../assets/delivery.jpg'
+import greekSalad from '../images/greek salad.jpg'
+import bruchetta from '../images/bruchetta.svg'
+import lemonDessert from '../images/lemon dessert.jpg'
+import delivery from '../images/delivery.jpg'
 
 export default function Hero() {
   const hero = [
