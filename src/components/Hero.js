@@ -19,7 +19,9 @@ export default function Hero() {
             <h3 className='hero-card-title'>Greek Salad</h3>
             <span className='hero-card-price'>$10.99</span>
             </div>
-            <p className='hero-card-description'>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.</p>
+            <div className='hero-card-description'>
+            <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.</p>
+            </div>
             <a href='#' className='hero-card-order'>Order a delivery
               <img src={delivery} alt='Delivery' className='hero-card-delivery-icon' />
             </a>
@@ -32,7 +34,9 @@ export default function Hero() {
               <h3 className='hero-card-title'>Bruchetta</h3>
               <span className='hero-card-price'>$8.99</span>
             </div>
-            <p className='hero-card-description'>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
+            <div className='hero-card-description'>
+              <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil along with fresh tomatoes and basil.</p>
+            </div>
             <a href='#' className='hero-card-order'>Order a delivery
               <img src={delivery} alt='Delivery' className='hero-card-delivery-icon' />
             </a>
@@ -45,7 +49,9 @@ export default function Hero() {
             <h3 className='hero-card-title'>Lemon Dessert</h3>
             <span className='hero-card-price'>$5.00</span>
             </div>
-            <p className='hero-card-description'>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
+            <div className='hero-card-description'>
+              <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined and made with love.</p>
+            </div>
             <a href='#' className='hero-card-order'>Order a delivery
               <img src={delivery} alt='Delivery' className='hero-card-delivery-icon' />
             </a>

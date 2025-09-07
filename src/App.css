@@ -185,10 +185,9 @@ main{
 .hero-card-description{
   font-size: 1rem;
   color: #333;
-  margin: 1.5rem 0;
+  margin: 1.8rem 0 4rem 0;
   line-height: 1.4;
 }
-
 .hero-card-order{
   text-decoration: none;
   color: #495e57;
